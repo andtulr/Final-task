@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #E0CDD5;
+}
+.page {
+    height: 100%;
+}
+
+.page__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #fbf1e8; 
+  
+}
+               /* Верхняя панель */
+.page__header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background-color: #321D26; 
+         
+}
+
+/* Верхняя панель -  логотип*/
+.header-section-logo {
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
+/* Верхняя панель - навигация*/
+.header-nav {
+
+}
+.nav-menu {
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.menu__item {
+   
+}
+/* Верхняя панель - телефон логотип*/
+.header-section-phlogo {
+    margin-right: 10%;
+    margin-top: 10px;
+
+}
+
+            /* Главная панель     */
+.page__main {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, #2C2126, #6E4D5C);                     
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page__main-carousel {
+    width: 1000px;
+    top: 50px;
+    left: 200px;
+  
+   
+}
+
+
+
+              /* Нижняя панель */
+.page__footer {
+    display: flex;
+    height: 190px;
+    background-color: #321D26;
+}
+.page-footer {
+    width: 50%;
+    margin-left: 10%;
+}  
+
+.page-footer-contact {
+    margin-left: 2%;
+}
+.page-footer-soc  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 45%;
+}
+
+
+
+.page__footer-map {
+   
+    width: 40%;
+    margin-right: 10%;
+    
+}
