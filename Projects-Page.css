@@ -8,6 +8,12 @@ a {
     text-decoration: none;
     color: #E0CDD5;
 }
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
 .page {
     height: 100%;
 }
@@ -68,9 +74,16 @@ a {
 .page__main-carousel {
     width: 1000px;
     top: 50px;
-    left: 200px;
-  
-   
+    left: 200px; 
+}
+.page__main-section-botton-logo-home {
+    position: absolute;
+    margin-top: -55px;
+    margin-left:1350px;
+    transform: 0;
+}
+.page__main-section-botton-logo-home:hover{
+    transform: scale(1.5);
 }
 
 
