@@ -1,0 +1,24 @@
+
+            /* Главная панель     */
+.page__main-carousel {
+    width: 1000px;
+    top: 50px;
+    left: 200px; 
+}
+.page__main-section-botton-logo-home {
+    position: absolute;
+    margin-top: -65px;
+    margin-left:1350px;
+    transform: 0;
+}
+.page__main-section-botton-logo-home:hover{
+    transform: scale(1.5);
+}
+
+
+
+            
+
+
+
+

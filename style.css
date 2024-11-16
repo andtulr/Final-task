@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+a {
+    text-decoration: none;
+    color: #E0CDD5;
+}
+.page {
+    height: 100%;
+}
+
+.page__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #fbf1e8; 
+  
+}
+               /* Верхняя панель */
+.page__header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background-color: #321D26; 
+         
+}
+
+/* Верхняя панель -  логотип*/
+.header-section-logo {
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
+/* Верхняя панель - навигация*/
+.header-nav {
+
+}
+.nav-menu {
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.menu__item {
+   
+}
+/* Верхняя панель - телефон логотип*/
+.header-section-phlogo {
+    margin-right: 10%;
+    margin-top: 10px;
+
+}
+
+            /* Главная панель     */
+.page__main {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, #2C2126, #6E4D5C);                     
+    margin-left: auto;
+    margin-right: auto;
+}
+.page__main-header {
+    position: absolute;
+    top: 320px;
+    left: 50px;
+
+}
+.page__main-header-text {
+    font-family: Tahoma;
+    font-size: 32px;
+    color: #E8A970;   
+}
+.page__main-title-text {
+    position: absolute;
+    width: 1000px;
+    height: 300px;
+    border: 14px solid #FABF89;
+    border-radius: 40px;
+    left: 400px;
+    top: 10px;
+
+}
+.page__main-title-text h2 {
+    font-family: "Georgia";
+    font-size: 102px;
+    font-weight: 50;
+    color: #E5954D;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.page__main-title-text h1 {
+    font-family: "Georgia";
+    font-size: 160px;
+    font-weight: 100;
+    color: #E8A970;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: -70px;
+   
+}
+
+.page__main-description {
+    position: absolute;
+    top: 360px;
+    width: 1473px;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.page__main-description h3 {
+    font-family: "Tahoma";
+    font-size: 32px;
+    color: #E8A970;   
+}
+.page__main-description-about_me {
+    width: 380px;
+    margin-left: 50px;
+    
+
+}
+.page__main-description-about_me p {
+    font-family: "Tahoma";
+    font-size: 16px;
+    color: #E8A970;
+}
+.page__main-description-projects {
+    width: 600px;
+    margin-left: 200px;
+   
+
+}
+.page__main-description-skills {
+    width: 300px;
+
+
+}
+.page__main-description-skills p, ul {
+    font-family: "Tahoma";
+    font-size: 16px;
+    color: #E8A970;
+}
+
+
+
+
+
+              /* Нижняя панель */
+.page__footer {
+    display: flex;
+   
+    background-color: #321D26;
+}
+.page-footer {
+    width: 50%;
+    margin-left: 10%;
+}  
+
+.page-footer-contact {
+    margin-left: 2%;
+}
+.page-footer-soc  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 45%;
+}
+
+
+
+.page__footer-map {
+   
+    width: 40%;
+    margin-right: 10%;
+    
+}

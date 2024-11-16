@@ -1,0 +1,170 @@
+
+            /* Главная панель     */
+.page__main {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, #2C2126, #6E4D5C);                     
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   flex-direction: column;
+}
+.page__main-section-top {
+    display: flex;
+    justify-content: space-between;
+}
+.main-section-top-first {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.main-section-top-first-logo-dev {
+    opacity: 0.2;
+    transform: rotate(-20deg)  ;
+}
+.main-section-top-first-logo-dev:hover {
+    opacity: 1;
+    transform: scale(1.1) rotate(0deg);
+
+}
+.main-section-top-second {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    border: 14px solid #FABF89;
+    border-radius: 40px;
+    top: 10px;
+    right: 10px;
+}
+h1 {
+    position: relative;
+    top: 150px;
+    left: 110px;
+    font-family: "Georgia";
+    font-size: 110px;
+    font-weight: 100;
+    color: #E8A970;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    height: 100px;
+}
+
+/* навыки тккст*/
+.page__main-section-botton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+.page__main-section-botton p {
+    font-family: "Tahoma";
+    font-size: 26px;
+    color: #E8A970;
+}
+.page__main-section-botton-skills {
+    position: absolute;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: rotate(-30deg) skew(10deg, 1deg);
+    margin-left: px;
+    margin-right: 250px;
+    margin-top: -50px;
+}
+.transform-text-skills1 {
+    position: relative;
+    transform:  rotate(-30deg) skew(10deg, 1deg);
+    right: 100px;
+}
+.transform-text-skills2 {
+    position: relative;
+    transform:  rotate(35deg) skew(10deg, 1deg);
+    right: 100px;
+}
+.transform-text-skills3 {
+    position: relative;
+    transform:  rotate(-90px) skew(10deg, 1deg);
+    right: 100px;
+}
+.transform-text-skills4 {
+    position: relative;
+    transform:  rotate(-20deg) skew(10deg, 1deg);
+    right: 100px;
+}
+.transform-text-skills5 {
+    position: relative;
+    transform:  rotate(25deg) skew(10deg, 1deg);
+    right: 100px;
+}
+.page__main-section-botton-profskills{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: px;
+    height: 350px;
+    transform: rotate(5deg) skew(-20deg, 5deg);
+    margin-top: px;
+    margin-bottom: px;
+    margin-right: px;
+    margin-left: 550px;
+}
+.page__main-section-botton-profskills1 {
+    transform:  rotate(-20deg) skew(10deg, 1deg);
+}
+.page__main-section-botton-profskills2{
+    transform:  rotate(10deg) skew(10deg, 1deg);
+} 
+.page__main-section-botton-profskills3 {
+    transform:  rotate(-3deg) skew(10deg, 1deg);
+}
+.page__main-section-botton-profskills4 {
+    transform:  rotate(-40deg) skew(15deg, 1deg);
+}
+.page__main-section-botton-profskills5 {
+    transform:  rotate(10deg) skew(10deg, 1deg);
+}
+
+/* Графика и логотип */
+.page__main-section-botton-graphics {
+    position: absolute;
+    left: 1100px;
+    transform: rotate(30deg);
+}
+.page__main-section-botton-graphics:hover {
+    transform: rotate(10deg);
+}
+
+.page__main-section-botton-logo-home {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 1800px;
+    
+}
+.page__main-section-botton-logo-home:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
